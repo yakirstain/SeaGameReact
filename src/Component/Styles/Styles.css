@@ -1,0 +1,527 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	vertical-align:baseline;
+}
+
+html
+{
+    height:100%; 
+    margin-bottom: 0px; 
+}
+
+body 
+{
+    text-align:left;
+    height:100%; 
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+	direction:ltr;
+}
+
+
+section#login
+{
+	background-image: url(/images/bg.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+section#login div.form
+{
+	
+	width: 400px;
+	height: 500px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	padding-top: 122px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+section#login div.form input
+{
+	width: 70%;
+	margin-bottom: 16px;
+	padding: 20px 10px 20px 10px;
+	border: none;
+	background-color: #dff4f4;
+	opacity: 0.6;
+	outline: none;
+	resize: none;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 14px;
+	font-size: 18px;
+}
+section#login div.form input.button
+{
+	background-color: #efe80a;
+	opacity: 0.5;
+	margin-left: 2px;
+	font-family: 'Montserrat', sans-serif;
+	color: #466ba6;
+	font-weight: 500;
+}
+section#login div.form input.button2
+{
+	background-color: #dff4f4;
+	opacity: 1;
+	margin-left: 2px;
+	font-family: 'Montserrat', sans-serif;
+	color: #466ba6;
+	font-weight: 500;
+}
+section#login div.form div.google
+{
+	display: inline-block;
+	position: absolute;
+	top: 526px;
+    left: 108px;
+	width: 200px;
+}
+section#login div.form div.facebook
+{
+	display: inline-block;
+	position: absolute;
+	top: 577px;
+    left: 126px;
+	width: 200px;
+}
+
+section#login img
+{
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+}
+section#login div.form input div.kaftor
+{
+	display: inline-block;
+}
+section#login div.form input.register
+{
+    background-color: #efe80a;
+	opacity: 0.5;
+	margin-left: 2px;
+	font-family: 'Montserrat', sans-serif;
+	color: #466ba6;
+	font-weight: 500;
+	width: 34%;
+	display: inline-block;
+}
+section#login div.form input.cancel
+{
+	background-color: #dff4f4;
+	opacity: 1;
+	margin-left: 4px;
+	font-family: 'Montserrat', sans-serif;
+	color: #466ba6;
+	font-weight: 500;
+	width: 34%;
+	display: inline-block;
+}
+
+section#player
+{
+	background-image: url(/images/bg.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+section#player h1
+{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	padding-top: 50px;
+}
+section#player div.select
+{
+	display: inline-block;
+	padding: 5px;
+}
+
+section#player div.container img{
+	
+	width: 100px;
+	height: 100px;
+	border-radius: 20%;
+}
+section#player div.container
+{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 50px;
+}
+section#player a.back
+{
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+section#player a.approve
+{
+	position: fixed;
+	bottom: 20px;
+	right: 0px;
+}
+
+section#player div.select a:hover
+{
+	border-bottom: solid #f4de11 8px;
+	
+}
+
+
+section#start
+{
+	background-image: url(/images/bg2.png);
+	height: 100vh;
+	background-size: cover;
+}
+section#start a.back
+{
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+section#start a.startgame
+{
+	text-decoration: none;
+	color: #466ba6;
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #c0db5d;
+	border-radius: 20px;
+	padding: 20px 30px 20px 30px;
+	z-index: 0;
+}
+
+section#start a.chart
+{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+
+section#start a.exit
+{
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+}
+
+
+section#scubaduba
+{
+	background-image: url(/images/bg2.png);
+	height: 100vh;
+	background-size: cover;
+}
+section#scubaduba a.back
+{
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+section#scubaduba a.title
+{
+	text-decoration: none;
+	font-family: 'Chewy', cursive;
+	color: #c0db5d;
+	font-size: 80px;
+	font-weight: 500;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	    -moz-text-fill-color: #c0db5d;
+  -webkit-text-fill-color: #c0db5d;
+     -moz-text-stroke-color: white;
+  -webkit-text-stroke-color: white;
+     -moz-text-stroke-width: 1px;  
+  -webkit-text-stroke-width: 1px;
+	
+}
+table,
+th,
+td {
+	border: 1px solid black;
+}
+section#scubaduba a.slide
+{
+	position: fixed;
+	bottom: 20px;
+	right: 0px;
+}
+section#game
+{
+	background-image: url(/images/bg2.png);
+	height: 100vh;
+	background-size: cover;
+}
+section#game a.sound
+{
+	position: fixed;
+	bottom: 20px;
+	right: 0px;
+}
+section#game h2
+{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	background-color: #f4de11;
+	padding: 10px 20px 10px 20px;
+	border-radius: 15px;
+}
+
+.btn_eat{
+	position: fixed;
+	bottom: 5vh;
+	left: 5vh;
+	background-image: url(/images/btn_eat.png);
+	background-size: contain;
+	width: 10vh;
+	height: 10vh;
+	opacity: 0.7;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #466ba6;
+	opacity: 1 !important;
+  
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #466ba6;
+
+	
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #466ba6;
+
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #466ba6;
+
+	
+}
+
+.popup {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: rgba(0,0,0, 0.5);
+  }
+  .popup_inner {
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	top: 50%;
+	bottom: 50%;
+	margin: auto;
+	background: #dff4f4;
+	opacity: 0.8;
+	border-radius: 5vh;
+	text-align: center;
+	overflow: hidden;
+	animation-name: 'showbox';
+       animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+    animation-duration: 0.8s;
+  }
+
+  .popup_inner h1{
+	margin: 0;
+	padding: 0;
+	margin-top: 1vh;
+	text-decoration: none;
+	font-family: 'Chewy', cursive;
+	color: #f4de11;
+	font-size: 15vh;
+  }
+  .popup_inner p{
+	  margin: 0;
+	  color: #466ba6;
+	  font-weight: 600;
+	  margin: 1vh;
+	  font-size: 3vh;
+  }
+
+  .popup_inner span{
+	  padding: 1vh 5vh;
+	  border-radius: 3vh;
+	  background-color: #f4de11;
+	  color: #dff4f4;
+	  font-weight: 600;
+	  font-size: 3vh;
+	  margin-top: 5vh;
+  }
+  .popup_inner h6{
+	  color: hotpink ;
+  }
+
+.shield{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 2px solid #f4de11;
+	position: absolute;
+	top: -10px;
+	left: -10px
+}
+  @keyframes showbox{
+  
+	0% {
+		left: 50%;
+		right: 50%;
+		top: 50%;
+		bottom: 50%;
+	}
+	   100% {
+		left: 25%;
+		right: 25%;
+		top: 25%;
+		bottom: 25%;
+	   }
+}
+
+
+@media only screen and (orientation: landscape)
+
+{
+	
+section#login div.form
+	{
+		height: 400px;
+		padding-top: 80px;
+	}
+section#login div.form input
+{
+	width: 60%;
+	margin-bottom: 16px;
+	padding: 10px 10px 10px 10px;
+	font-size: 16px;
+}	
+section#login div.form div.google
+{
+	display: inline-block;
+	position: absolute;
+	top: 380px;
+    left: 105px;
+	width: 200px;
+}
+section#login div.form div.facebook
+{
+	display: inline-block;
+	position: absolute;
+	top: 430px;
+    left: 122px;
+	width: 200px;
+}
+section#login img
+{
+	
+	bottom: 30px;
+	right: 30px;
+}	
+section#login div.form input.register
+{
+	width: 29%;
+}
+section#login div.form input.cancel
+{
+  
+	width: 29%;
+	
+}
+
+	
+}
+
+.imgPop{
+    animation-name: 'popimage';
+       animation-fill-mode: forwards;
+       -webkit-animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+  }
+  
+  .imgPush{
+    animation-name: 'pushimage';
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+  }
+  
+  @keyframes pushimage{
+  
+      0% {
+		width: 120px;
+		height: 120px
+      }
+         100% {
+			width: 100px;
+			height: 100px;
+         }
+  }
+  
+  @keyframes popimage {
+    0% {
+	  width: 100px;
+	  height: 100px;
+    }
+    100%{
+		
+	  border: 5px solid #f4de11 ;
+	  width: 120px;
+	  height: 120px
+    }
+  }
+  .blue{
+    background-color: rgb(42, 131, 190);
+  }
+  
+
+
+.scobaduba {
+	opacity: 0;
+    animation-name: opacityOn;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+
+}
+@keyframes opacityOn {
+	0%   { opacity:0; }
+	50%  { opacity:1; }
+	100% { opacity:0; }
+}
